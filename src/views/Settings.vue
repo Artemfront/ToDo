@@ -36,11 +36,12 @@ export default {
 }
 
 .container {
-  margin:60px auto;
+  margin:50px auto;
   max-width:1110px;
   width:100%;
   height: 700px;
   background-color:white;
+  border-radius:15px;
 }
 
 .title {

@@ -43,7 +43,7 @@ export default {
           return 
         }
         if(this.tasks.length == 5) {
-          alert('Amount of your tasks is bigger than optimal amount, do you want to continue?')
+          alert('Amount of your tasks is bigger than optimal amount!')
           this.inputValue = ''
         } else {
           this.tasks.push({
@@ -89,11 +89,12 @@ export default {
 }
 
 .container {
-  margin:60px auto;
+  margin:50px auto;
   max-width:1110px;
   width:100%;
   height: 700px;
   background-color:white;
+  border-radius:15px;
 }
 
 .title {
@@ -107,7 +108,7 @@ export default {
 
 
 .btn {
-  width:100px;
+  width:110px;
   height: 30px;
   font-size:15px !important;
 
